@@ -1,0 +1,160 @@
+*{
+    margin:0;
+}
+
+body{
+    background-color:rgb(0, 0, 0);
+    overflow-x: hidden;
+}
+
+#contentOne{
+    color: blanchedalmond;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif ;
+}
+
+#navBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+    margin-left: 450px;
+    scroll-behavior: smooth;
+}
+
+#navBar ol {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+    display: flex; 
+}
+
+#navBar li {
+    margin: 0; 
+    padding-right: 400px;
+    padding-top: 40px;
+}
+
+#navBar li a {
+    text-decoration: none;
+    color: rgb(241, 241, 241);
+    font-weight: bold;
+    font-size: 30px;
+    transition: 0.3s ease;
+    font-family: 'Oswald', sans-serif;
+    width: 200px;
+}
+#navBar a:hover{
+    background-image: linear-gradient(319deg, #663dff 0%, #aa00ff 37%, #cc4499 100%);
+    background-clip:text ;
+    color: transparent;
+    border-radius: 10%;
+    letter-spacing: 5px;
+}
+
+
+#topOfEmailBox{
+    color: rgb(255, 255, 255);
+    padding-top:75px;
+    padding-left:125px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: underline;
+    font-size: 100px;
+}
+
+#contactContentMain{
+    /* display: flex; */
+    height: 100vh;
+    width: 80%;
+    background-color: rgb(0, 0, 0);
+    color: whitesmoke;
+    padding-left: 50px;
+    padding-top:50px;
+    border-radius: 24px;
+    margin-left: 100px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+#linkedInLogo{
+    height: 100px;
+    width: 100px;
+    padding-top: 0px;
+    vertical-align: middle;
+}
+
+#linkedInText{
+    padding-top: 5px;
+    text-decoration: none;
+    color:white;
+    font-size: 40px;
+    vertical-align:middle;
+    transition: 0.15s ease-in-out;
+    font-weight: bold;
+}
+
+
+
+#linkedInText:hover{
+    background-image: linear-gradient(319deg, #663dff 0%, #aa00ff 37%, #cc4499 100%);
+    background-clip:text ;
+    color: transparent;
+    font-weight: bolder;
+    letter-spacing: 1.5px;
+    font-size: 50px;
+}
+
+#Xid{
+    padding-left: 70px;
+    height: 100px;
+    width: 100px;
+    vertical-align: middle;
+    background: transparent;
+}
+#xText{
+    padding-top: 5px;
+    text-decoration: none;
+    color:white;
+    font-size: 40px;
+    vertical-align:middle;
+    transition: 0.15s ease-in-out;
+    font-weight: bold;
+}
+#xText:hover{
+    background-image: linear-gradient(319deg, #663dff 0%, #aa00ff 37%, #cc4499 100%);
+    background-clip:text ;
+    color: transparent;
+    font-weight: bolder;
+    letter-spacing: 1.5px;
+    font-size: 50px;
+
+}
+
+#gitHubLogo{
+    padding-left: 70px;
+    height: 100px;
+    width: 100px;
+    vertical-align: middle;
+
+}
+
+#gitHubText{
+    padding-top: 5px;
+    text-decoration: none;
+    color:white;
+    font-size: 40px;
+    vertical-align:middle;
+    transition: 0.15s ease-in-out;
+    font-weight: bold;
+
+}
+#gitHubText:hover{
+    background-image: linear-gradient(319deg, #663dff 0%, #aa00ff 37%, #cc4499 100%);
+    background-clip:text ;
+    color: transparent;
+    font-weight: bolder;
+    letter-spacing: 1.5px;
+    font-size: 50px;
+
+}

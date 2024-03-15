@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: black;
+    overflow-x: hidden;
+}
+
+#navBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+    margin-left: 450px;
+    scroll-behavior: smooth;
+}
+
+#navBar ol {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+    display: flex; 
+}
+
+#navBar li {
+    margin: 0; 
+    padding-right: 400px;
+    padding-top: 40px;
+}
+
+#navBar li a {
+    text-decoration: none;
+    color: rgb(241, 241, 241);
+    font-weight: bold;
+    font-size: 30px;
+    transition: 0.3s ease;
+    font-family: 'Oswald', sans-serif;
+    width: 200px;
+}
+#navBar a:hover{
+    background-image: linear-gradient(319deg, #663dff 0%, #aa00ff 37%, #cc4499 100%);
+    background-clip:text ;
+    color: transparent;
+    border-radius: 10%;
+    letter-spacing: 5px;
+}
+
+#contentOne{
+    color: blanchedalmond;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 40px;
+}
+img {
+    float: left;
+    width: 400px; 
+    height: auto;
+    padding-left: 10px;
+    transform: translateY(-100px); 
+    margin-top: 1px;
+    z-index: 1;
+}
+
+
+
+#blob{
+    height: 100vh;
+    width: 70%;
+    float:right;
+    transform: translateX(-200px);
+}
+
+
+#backCircle{
+    margin-top: 100px;
+    color: black;
+    text-align: center;
+    width: 100%px;
+    background-color: #8739F9;
+    padding-left: 450px;
+    height: 80vh;
+}
+
+#name {
+    stroke-dasharray: 3100;
+    stroke-dashoffset: 3100;
+    animation: sign 4s ease forwards; 
+}
+
+@keyframes sign {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+#line{
+    margin-top: 10px;
+    transform: translateX(-153px);
+    width: 200%;
+    border-top: 5px solid black;
+}
+
+pre{
+    font-family: 'Oswald', sans-serif;
+
+}
+
+#abtContent{
+    margin-right: 45px;
+}
+
+#secondContent{
+    font-family: 'Oswald', sans-serif;
+    margin-top: 100px;
+    background-color: #aa00ff;
+    height: 90vh;
+    width: 100%;
+    color:yellow;
+}
+
+#education{
+    transform: translateX(-100px);
+}
+
+#educationContent{
+    float: left;
+    margin-left: 50px;
+    padding-top: 50px;
+    color:black;
+}
+
+#college{
+    text-align: start;
+    color: yellow;
+    text-decoration: underline;
+}
+
+#classX11{
+    text-align: start;
+    color: yellow;
+    text-decoration: underline;
+}
+#classX{
+    text-align: start;
+    color:yellow;
+    text-decoration: underline;
+}
