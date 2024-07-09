@@ -107,7 +107,7 @@ body{
 
 #Xid{
     padding-left: 70px;
-    height: 100px;
+    height: 150px;
     width: 100px;
     vertical-align: middle;
     background: transparent;
@@ -157,4 +157,11 @@ body{
     letter-spacing: 1.5px;
     font-size: 50px;
 
+}
+
+#mailIcon{
+    padding-left: 70px;
+    height: 100px;
+    width: 100px;
+    vertical-align: middle;
 }
