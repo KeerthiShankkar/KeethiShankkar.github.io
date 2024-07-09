@@ -1,30 +1,30 @@
-*{
-    margin:0;
+* {
+    margin: 0;
 }
 
-body{
+body {
     background-color: black;
-    color:blanchedalmond;
+    color: blanchedalmond;
     overflow-x: hidden;
 }
 
 #navBar {
     display: flex;
     align-items: center;
-    justify-content: space-evenly; 
+    justify-content: space-evenly;
     margin-left: 450px;
     scroll-behavior: smooth;
 }
 
 #navBar ol {
-    list-style: none; 
+    list-style: none;
     padding: 0;
     margin: 0;
-    display: flex; 
+    display: flex;
 }
 
 #navBar li {
-    margin: 0; 
+    margin: 0;
     padding-right: 400px;
     padding-top: 40px;
 }
@@ -38,16 +38,50 @@ body{
     font-family: 'Oswald', sans-serif;
     width: 200px;
 }
-#navBar a:hover{
+
+#navBar a:hover {
     background-image: linear-gradient(319deg, #663dff 0%, #aa00ff 37%, #cc4499 100%);
-    background-clip:text ;
+    background-clip: text;
     color: transparent;
     border-radius: 10%;
     letter-spacing: 5px;
 }
 
-#heading{
+#heading {
     text-align: center;
     font-size: 70px;
     font-family: 'Oswald', sans-serif;
+}
+
+.project {
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#project1 {
+    background-color: #1e1e1e;
+    height: 50vh;
+    width: 150vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+
+#project2 {
+    background-color: #333333;
+    height: 50vh;
+    width: 150vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+
+.description {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: start;
+    font-size: 40px;
+    padding-top: 40px;
 }
